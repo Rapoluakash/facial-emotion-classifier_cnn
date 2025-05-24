@@ -1,0 +1,8 @@
+
+txt
+Copy
+Edit
+tensorflow>=2.8.0
+numpy>=1.19.0
+matplotlib>=3.3.0
+opencv-python>=4.5.0
