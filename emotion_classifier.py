@@ -6,9 +6,9 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator, load_img, img_to_array
 
 # === Set Paths ===
-train_dir = r"C:\Users\rapol\OneDrive\Documents\Desktop\cnn\training"
-val_dir = r"C:\Users\rapol\OneDrive\Documents\Desktop\cnn\validation"
-test_dir = r"C:\Users\rapol\OneDrive\Documents\Desktop\cnn\teasting"
+train_dir = r"your path"
+val_dir = r"your path"
+test_dir = r"your path"
 
 # === Image Generators ===
 train = ImageDataGenerator(rescale=1./255)
